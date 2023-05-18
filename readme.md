@@ -1,3 +1,19 @@
+## Solution included
+This repo contains the solution for the task decribed below.
+
+**Important notes**: 
+    
+- private keys are generated in the frontend app and stored in localStorage
+- public keys (derived from the private keys) are sent to the backend
+- the backend registers all new public keys and sets the same initial balance for all of them
+- on the frontend: stored addresses can be deleted by pushing the "Clear localStorage..." button
+- on the backend: registered addresses can be deleted by restarting the server application
+
+---
+.
+
+---
+
 ## ECDSA Node
 
 This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
